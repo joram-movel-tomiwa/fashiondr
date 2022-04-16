@@ -89,10 +89,75 @@ A social media application that matches people with similar fashion tastes based
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+** Objects**
+    *Users
+    *Posts
+    *Comments
+    *Likes
+    *Dislikes
+    *Follows
+    *Joins
 ### Models
-[Add table of models]
+
+|Property|Type   |Description
+|--------|------|-----------|
+|objectId|String|Unique id for the user post|
+|author  |Pointer to User|Image author|
+|image|File| Image that user posts|
+|caption|String|Image caption by author|
+|commentsCount|Number|Number of comments on an image|
+|likesCount|Number|Number of likes for the post|
+|DislikesCount|Number|Number of dislikes for the post|
+|CreatedAt|DateTime|Date when the post is created|
+|updatedAt|DateTime|Date when post is last updated|
+
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
+-Home Feed Screen
+ i. (Read/GET)Query all posts where user is author
+ ii. (Create/POST)Create a new like on a post
+ iii. (Create/POST)Create a new comment on a post
+ iv. (Delete)Delete existing comment
+ v. (Delete)Delete existing like
+-Create Post Screen
+ i. (Create/POST)Create a new post object
+-Profile Screen
+ i. (Read/GET)Query logged in user object
+ ii. (Update/PUT) user profile image
+-Message Screen
+ i. (Read/GET)Get other Users
+ ii. (Create/POST)Send Message
+ iii. (Create/POST)Join Group
+- Create basic snippets for each Parse network request
+Retrieving Objects
+let query = PFQuery(className:"GameScore")
+query.getObjectInBackground(withId: "xWMyZEGZ") { (gameScore, error) in
+    if error == nil {
+        // Success!
+    } else {
+        // Fail!
+    }
+}
+Deleting Objects
+PFObject.deleteAll(inBackground: objectArray) { (succeeded, error) in
+    if (succeeded) {
+        // The array of objects was successfully deleted.
+    } else {
+        // There was an error. Check the errors localizedDescription.
+    }
+}
+Create Objects
+let myPost = PFObject(className:"Post")
+myPost["title"] = "I'm Hungry"
+myPost["content"] = "Where should we go for lunch?"
+
+// Create the comment
+let myComment = PFObject(className:"Comment")
+myComment["content"] = "Let's do Sushirrito."
+
+// Add a relation between the Post and Comment
+myComment["post"] = myPost
+
+// This will save both myPost and myComment
+myComment.saveInBackground()
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
