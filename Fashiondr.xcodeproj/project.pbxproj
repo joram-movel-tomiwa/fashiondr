@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43A5E4ECB995502EA775549E /* Pods_Fashiondr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76154EB767365C48C33321D4 /* Pods_Fashiondr.framework */; };
+		452138423F60C6E94425AA6F /* Pods_Fashiondr_FashiondrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36986CA7FCC311A348F23FFD /* Pods_Fashiondr_FashiondrUITests.framework */; };
 		510AA5BD2803CAC10044AE95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510AA5BC2803CAC10044AE95 /* AppDelegate.swift */; };
 		510AA5BF2803CAC10044AE95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510AA5BE2803CAC10044AE95 /* SceneDelegate.swift */; };
 		510AA5C12803CAC10044AE95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510AA5C02803CAC10044AE95 /* ViewController.swift */; };
@@ -16,7 +18,8 @@
 		510AA5D42803CAC30044AE95 /* FashiondrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510AA5D32803CAC30044AE95 /* FashiondrTests.swift */; };
 		510AA5DE2803CAC30044AE95 /* FashiondrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510AA5DD2803CAC30044AE95 /* FashiondrUITests.swift */; };
 		510AA5E02803CAC30044AE95 /* FashiondrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510AA5DF2803CAC30044AE95 /* FashiondrUITestsLaunchTests.swift */; };
-		D16934422816313300B74836 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16934412816313300B74836 /* LoginViewController.swift */; };
+		6AF3C5DB11C90E775966E1C0 /* Pods_FashiondrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F194E0255B698A1E6FDD82E3 /* Pods_FashiondrTests.framework */; };
+		BB70CCB628163A9700715786 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70CCB528163A9700715786 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		153FF02225F13949CAD827BE /* Pods-FashiondrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashiondrTests.debug.xcconfig"; path = "Target Support Files/Pods-FashiondrTests/Pods-FashiondrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2285B165B01861CD72D9264E /* Pods-Fashiondr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashiondr.debug.xcconfig"; path = "Target Support Files/Pods-Fashiondr/Pods-Fashiondr.debug.xcconfig"; sourceTree = "<group>"; };
+		36986CA7FCC311A348F23FFD /* Pods_Fashiondr_FashiondrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fashiondr_FashiondrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		510AA5B92803CAC10044AE95 /* Fashiondr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fashiondr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		510AA5BC2803CAC10044AE95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		510AA5BE2803CAC10044AE95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +56,13 @@
 		510AA5D92803CAC30044AE95 /* FashiondrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashiondrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		510AA5DD2803CAC30044AE95 /* FashiondrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashiondrUITests.swift; sourceTree = "<group>"; };
 		510AA5DF2803CAC30044AE95 /* FashiondrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashiondrUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D16934412816313300B74836 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6188AD1190B6644BB1C58265 /* Pods-Fashiondr-FashiondrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashiondr-FashiondrUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fashiondr-FashiondrUITests/Pods-Fashiondr-FashiondrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		76154EB767365C48C33321D4 /* Pods_Fashiondr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fashiondr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BC36DA36549D05D5EF47BF /* Pods-Fashiondr-FashiondrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashiondr-FashiondrUITests.release.xcconfig"; path = "Target Support Files/Pods-Fashiondr-FashiondrUITests/Pods-Fashiondr-FashiondrUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD32EC3A1FDAB63C8E08A10A /* Pods-Fashiondr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashiondr.release.xcconfig"; path = "Target Support Files/Pods-Fashiondr/Pods-Fashiondr.release.xcconfig"; sourceTree = "<group>"; };
+		BB70CCB528163A9700715786 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C857805D7286C0B977244619 /* Pods-FashiondrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashiondrTests.release.xcconfig"; path = "Target Support Files/Pods-FashiondrTests/Pods-FashiondrTests.release.xcconfig"; sourceTree = "<group>"; };
+		F194E0255B698A1E6FDD82E3 /* Pods_FashiondrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FashiondrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A5E4ECB995502EA775549E /* Pods_Fashiondr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AF3C5DB11C90E775966E1C0 /* Pods_FashiondrTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,20 +86,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452138423F60C6E94425AA6F /* Pods_Fashiondr_FashiondrUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BAC4836E3890D94FC9B3A45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76154EB767365C48C33321D4 /* Pods_Fashiondr.framework */,
+				36986CA7FCC311A348F23FFD /* Pods_Fashiondr_FashiondrUITests.framework */,
+				F194E0255B698A1E6FDD82E3 /* Pods_FashiondrTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		510AA5B02803CAC10044AE95 = {
 			isa = PBXGroup;
 			children = (
-				D16934412816313300B74836 /* LoginViewController.swift */,
 				510AA5BB2803CAC10044AE95 /* Fashiondr */,
 				510AA5D22803CAC30044AE95 /* FashiondrTests */,
 				510AA5DC2803CAC30044AE95 /* FashiondrUITests */,
 				510AA5BA2803CAC10044AE95 /* Products */,
+				9C9FB984AAA127A23352F6BB /* Pods */,
+				2BAC4836E3890D94FC9B3A45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +135,7 @@
 				510AA5C52803CAC20044AE95 /* Assets.xcassets */,
 				510AA5C72803CAC20044AE95 /* LaunchScreen.storyboard */,
 				510AA5CA2803CAC20044AE95 /* Info.plist */,
+				BB70CCB528163A9700715786 /* LoginViewController.swift */,
 			);
 			path = Fashiondr;
 			sourceTree = "<group>";
@@ -130,6 +157,19 @@
 			path = FashiondrUITests;
 			sourceTree = "<group>";
 		};
+		9C9FB984AAA127A23352F6BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2285B165B01861CD72D9264E /* Pods-Fashiondr.debug.xcconfig */,
+				AD32EC3A1FDAB63C8E08A10A /* Pods-Fashiondr.release.xcconfig */,
+				6188AD1190B6644BB1C58265 /* Pods-Fashiondr-FashiondrUITests.debug.xcconfig */,
+				93BC36DA36549D05D5EF47BF /* Pods-Fashiondr-FashiondrUITests.release.xcconfig */,
+				153FF02225F13949CAD827BE /* Pods-FashiondrTests.debug.xcconfig */,
+				C857805D7286C0B977244619 /* Pods-FashiondrTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 510AA5E32803CAC30044AE95 /* Build configuration list for PBXNativeTarget "Fashiondr" */;
 			buildPhases = (
+				AABCBD585A561FB7D470063F /* [CP] Check Pods Manifest.lock */,
 				510AA5B52803CAC10044AE95 /* Sources */,
 				510AA5B62803CAC10044AE95 /* Frameworks */,
 				510AA5B72803CAC10044AE95 /* Resources */,
+				A7C7209533D2D87FBC5C45A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 510AA5E62803CAC30044AE95 /* Build configuration list for PBXNativeTarget "FashiondrTests" */;
 			buildPhases = (
+				6BD92C65A88D680C0E354FBF /* [CP] Check Pods Manifest.lock */,
 				510AA5CB2803CAC20044AE95 /* Sources */,
 				510AA5CC2803CAC20044AE95 /* Frameworks */,
 				510AA5CD2803CAC20044AE95 /* Resources */,
@@ -172,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 510AA5E92803CAC30044AE95 /* Build configuration list for PBXNativeTarget "FashiondrUITests" */;
 			buildPhases = (
+				B1DD4233BEED92AE97595004 /* [CP] Check Pods Manifest.lock */,
 				510AA5D52803CAC30044AE95 /* Sources */,
 				510AA5D62803CAC30044AE95 /* Frameworks */,
 				510AA5D72803CAC30044AE95 /* Resources */,
+				5AFA905636483B64E1159CEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,12 +301,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5AFA905636483B64E1159CEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fashiondr-FashiondrUITests/Pods-Fashiondr-FashiondrUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fashiondr-FashiondrUITests/Pods-Fashiondr-FashiondrUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fashiondr-FashiondrUITests/Pods-Fashiondr-FashiondrUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BD92C65A88D680C0E354FBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FashiondrTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C7209533D2D87FBC5C45A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fashiondr/Pods-Fashiondr-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fashiondr/Pods-Fashiondr-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fashiondr/Pods-Fashiondr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AABCBD585A561FB7D470063F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fashiondr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1DD4233BEED92AE97595004 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fashiondr-FashiondrUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		510AA5B52803CAC10044AE95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D16934422816313300B74836 /* LoginViewController.swift in Sources */,
+				BB70CCB628163A9700715786 /* LoginViewController.swift in Sources */,
 				510AA5C12803CAC10044AE95 /* ViewController.swift in Sources */,
 				510AA5BD2803CAC10044AE95 /* AppDelegate.swift in Sources */,
 				510AA5BF2803CAC10044AE95 /* SceneDelegate.swift in Sources */,
@@ -438,6 +586,7 @@
 		};
 		510AA5E42803CAC30044AE95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2285B165B01861CD72D9264E /* Pods-Fashiondr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +615,7 @@
 		};
 		510AA5E52803CAC30044AE95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD32EC3A1FDAB63C8E08A10A /* Pods-Fashiondr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -494,6 +644,7 @@
 		};
 		510AA5E72803CAC30044AE95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153FF02225F13949CAD827BE /* Pods-FashiondrTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +665,7 @@
 		};
 		510AA5E82803CAC30044AE95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C857805D7286C0B977244619 /* Pods-FashiondrTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +686,7 @@
 		};
 		510AA5EA2803CAC30044AE95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6188AD1190B6644BB1C58265 /* Pods-Fashiondr-FashiondrUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +705,7 @@
 		};
 		510AA5EB2803CAC30044AE95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93BC36DA36549D05D5EF47BF /* Pods-Fashiondr-FashiondrUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

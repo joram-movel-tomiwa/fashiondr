@@ -61,6 +61,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Sign In">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="onSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qjh-Lu-Ngs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVi-VF-iBi">
                                 <rect key="frame" x="189" y="497" width="75" height="31"/>
@@ -68,6 +71,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Sign Up">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dkb-j8-LLv"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="fashiondr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Lm-9d-dew">
                                 <rect key="frame" x="81" y="139" width="313" height="126"/>
@@ -99,10 +105,14 @@
                             <constraint firstItem="c63-4q-8QN" firstAttribute="top" secondItem="Xdx-It-2xc" secondAttribute="bottom" constant="34" id="zJT-hi-fAc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="passwordField" destination="Xdx-It-2xc" id="kDp-M2-9Y8"/>
+                        <outlet property="usernameField" destination="UYa-Bj-bpX" id="Upt-Y6-0Ep"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="34.782608695652179" y="83.705357142857139"/>
+            <point key="canvasLocation" x="-126" y="80"/>
         </scene>
     </scenes>
     <resources>
