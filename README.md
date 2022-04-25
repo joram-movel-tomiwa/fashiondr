@@ -29,7 +29,7 @@ A social media application that matches people with similar fashion tastes based
 **Required Must-have Stories**
 
 * User can create a new account
-* User can login
+* [x] User can login
 * User can choose brands they are interested in
 * User can chat with followers and in associated fashion brand groups
 * User can view chats and groups they are currently part of
