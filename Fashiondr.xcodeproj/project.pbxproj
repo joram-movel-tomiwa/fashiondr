@@ -16,6 +16,7 @@
 		510AA5D42803CAC30044AE95 /* FashiondrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510AA5D32803CAC30044AE95 /* FashiondrTests.swift */; };
 		510AA5DE2803CAC30044AE95 /* FashiondrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510AA5DD2803CAC30044AE95 /* FashiondrUITests.swift */; };
 		510AA5E02803CAC30044AE95 /* FashiondrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510AA5DF2803CAC30044AE95 /* FashiondrUITestsLaunchTests.swift */; };
+		D16934422816313300B74836 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16934412816313300B74836 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		510AA5D92803CAC30044AE95 /* FashiondrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashiondrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		510AA5DD2803CAC30044AE95 /* FashiondrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashiondrUITests.swift; sourceTree = "<group>"; };
 		510AA5DF2803CAC30044AE95 /* FashiondrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashiondrUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D16934412816313300B74836 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		510AA5B02803CAC10044AE95 = {
 			isa = PBXGroup;
 			children = (
+				D16934412816313300B74836 /* LoginViewController.swift */,
 				510AA5BB2803CAC10044AE95 /* Fashiondr */,
 				510AA5D22803CAC30044AE95 /* FashiondrTests */,
 				510AA5DC2803CAC30044AE95 /* FashiondrUITests */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D16934422816313300B74836 /* LoginViewController.swift in Sources */,
 				510AA5C12803CAC10044AE95 /* ViewController.swift in Sources */,
 				510AA5BD2803CAC10044AE95 /* AppDelegate.swift in Sources */,
 				510AA5BF2803CAC10044AE95 /* SceneDelegate.swift in Sources */,
