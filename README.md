@@ -84,9 +84,16 @@ A social media application that matches people with similar fashion tastes based
 
 <img src="https://i.imgur.com/7FIpTZC.jpg" width=600>
 
+
 ### [BONUS] Digital Wireframes & Mockups
 
-### [BONUS] Interactive Prototype
+## Interactive Prototype
+### Current Progress (Sprint 1)
+<img src="https://i.imgur.com/W5RtOkB.gif" width=600>
+
+
+### Current Progress (sprint 2)
+<img src="https://i.imgur.com/45P9UEp.gif" width=600>
 
 ## Schema 
 ** Objects**
