@@ -15,20 +15,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FASHIONDR...." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wcb-RY-MAv">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="43"/>
-                                <color key="textColor" red="1" green="0.00082216572314186553" blue="0.94194495654987076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fashiondr2" translatesAutoresizingMaskIntoConstraints="NO" id="CAR-d2-e8F">
+                                <rect key="frame" x="44" y="148" width="327" height="600"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.33515601403934436" green="0.33726391349871132" blue="0.33304811457997746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="wcb-RY-MAv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4zZ-We-9Pw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wcb-RY-MAv" secondAttribute="bottom" id="JAY-32-d8B"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wcb-RY-MAv" secondAttribute="trailing" id="WeX-G5-C4b"/>
-                            <constraint firstItem="wcb-RY-MAv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ZZ8-V8-zwE"/>
+                            <constraint firstItem="CAR-d2-e8F" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="104" id="4aD-Ie-sU1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CAR-d2-e8F" secondAttribute="bottom" constant="114" id="4db-iW-dpH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CAR-d2-e8F" secondAttribute="trailing" constant="43" id="AQu-Ba-tPM"/>
+                            <constraint firstItem="CAR-d2-e8F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="B9Q-df-twd"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,4 +35,7 @@
             <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="fashiondr2" width="376" height="267"/>
+    </resources>
 </document>

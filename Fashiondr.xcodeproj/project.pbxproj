@@ -19,7 +19,11 @@
 		510AA5DE2803CAC30044AE95 /* FashiondrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510AA5DD2803CAC30044AE95 /* FashiondrUITests.swift */; };
 		510AA5E02803CAC30044AE95 /* FashiondrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510AA5DF2803CAC30044AE95 /* FashiondrUITestsLaunchTests.swift */; };
 		6AF3C5DB11C90E775966E1C0 /* Pods_FashiondrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F194E0255B698A1E6FDD82E3 /* Pods_FashiondrTests.framework */; };
+		BB4DEBDC281F53C300F2A344 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4DEBDB281F53C300F2A344 /* HomeViewController.swift */; };
 		BB70CCB628163A9700715786 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70CCB528163A9700715786 /* LoginViewController.swift */; };
+		BB94CD09281F79060091FB08 /* BrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94CD08281F79060091FB08 /* BrandViewController.swift */; };
+		BB94CD0B281F791D0091FB08 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94CD0A281F791D0091FB08 /* ChatViewController.swift */; };
+		BB94CD0D281FA1800091FB08 /* BrandGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94CD0C281FA1800091FB08 /* BrandGridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +64,11 @@
 		76154EB767365C48C33321D4 /* Pods_Fashiondr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fashiondr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93BC36DA36549D05D5EF47BF /* Pods-Fashiondr-FashiondrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashiondr-FashiondrUITests.release.xcconfig"; path = "Target Support Files/Pods-Fashiondr-FashiondrUITests/Pods-Fashiondr-FashiondrUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AD32EC3A1FDAB63C8E08A10A /* Pods-Fashiondr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashiondr.release.xcconfig"; path = "Target Support Files/Pods-Fashiondr/Pods-Fashiondr.release.xcconfig"; sourceTree = "<group>"; };
+		BB4DEBDB281F53C300F2A344 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BB70CCB528163A9700715786 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BB94CD08281F79060091FB08 /* BrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandViewController.swift; sourceTree = "<group>"; };
+		BB94CD0A281F791D0091FB08 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		BB94CD0C281FA1800091FB08 /* BrandGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridCell.swift; sourceTree = "<group>"; };
 		C857805D7286C0B977244619 /* Pods-FashiondrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashiondrTests.release.xcconfig"; path = "Target Support Files/Pods-FashiondrTests/Pods-FashiondrTests.release.xcconfig"; sourceTree = "<group>"; };
 		F194E0255B698A1E6FDD82E3 /* Pods_FashiondrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FashiondrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -136,6 +144,10 @@
 				510AA5C72803CAC20044AE95 /* LaunchScreen.storyboard */,
 				510AA5CA2803CAC20044AE95 /* Info.plist */,
 				BB70CCB528163A9700715786 /* LoginViewController.swift */,
+				BB4DEBDB281F53C300F2A344 /* HomeViewController.swift */,
+				BB94CD08281F79060091FB08 /* BrandViewController.swift */,
+				BB94CD0A281F791D0091FB08 /* ChatViewController.swift */,
+				BB94CD0C281FA1800091FB08 /* BrandGridCell.swift */,
 			);
 			path = Fashiondr;
 			sourceTree = "<group>";
@@ -409,6 +421,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB94CD09281F79060091FB08 /* BrandViewController.swift in Sources */,
+				BB94CD0B281F791D0091FB08 /* ChatViewController.swift in Sources */,
+				BB4DEBDC281F53C300F2A344 /* HomeViewController.swift in Sources */,
+				BB94CD0D281FA1800091FB08 /* BrandGridCell.swift in Sources */,
 				BB70CCB628163A9700715786 /* LoginViewController.swift in Sources */,
 				510AA5C12803CAC10044AE95 /* ViewController.swift in Sources */,
 				510AA5BD2803CAC10044AE95 /* AppDelegate.swift in Sources */,
